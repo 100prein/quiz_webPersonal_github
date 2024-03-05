@@ -1,0 +1,103 @@
+body {
+    background-color: skyblue;
+}
+
+
+/*Navigation section*/
+
+.nav_for_ul_li {
+    background-color: beige;
+}
+.nav_for_list li {
+    display: inline;
+    list-style-type: none;  
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.nav_for_list li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+  }
+
+  .nav_for_list li {
+    float: left;
+}
+
+li a:hover {
+    background-color: skyblue;
+}
+
+.section_each_page {
+    width: 70%;
+}
+
+/*The dropdown menu*/
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: skyblue;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: beige;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    width:  auto;
+    height: auto;
+  }
+
+  
+/*Content of the first Home/index page*/
+
+ /*Content of the Footer section page*/
+  .home_footer {
+    background-color: navy;
+    color: white;
+  }
+
+  .footer_list{
+    list-style-type: none;
+    display: inline-table;
+  }
+
+
+  
+
+
+
+  
